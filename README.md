@@ -1,0 +1,1 @@
+# tinymce-i18n
