@@ -11,6 +11,9 @@
       "email": "ivan.chkv@gmail.com"
     }
   ],
+  "scripts": {
+    "post-update-cmd": "cp -v vendor/language/*/*.js langs"
+  },
   "require-dev": {
     "language/ar": "*",
     "language/ar_SA": "*",
