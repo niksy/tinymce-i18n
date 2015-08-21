@@ -1,0 +1,30 @@
+{
+  "name": "ivan-chkv/tinymce-i18n",
+  "description": "Languages for TinyMCE 4",
+  "keywords": ["tinymce", "i18n", "languages"],
+  "homepage": "http://www.tinymce.com/i18n/",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "ivan.chkv@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "language/ru": "*"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "language/ru",
+        "version": "1.0.0",
+        "dist": {
+          "type": "zip",
+          "url": "http://www.tinymce.com/i18n/download.php?download=ru"
+        }
+      }
+    }
+  ]
+}
