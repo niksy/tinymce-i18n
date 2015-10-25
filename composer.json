@@ -7,90 +7,93 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Ivan Chistyakov",
-      "email": "ivan.chkv@gmail.com"
+      "name": "TinyMCE Community"
     }
   ],
   "scripts": {
-    "post-update-cmd": "cp -v vendor/language/*/*.js langs"
+    "post-update-cmd": [
+      "rm -frv langs",
+      "mkdir -pv langs",
+      "cp -v vendor/language/*/* langs"
+    ]
   },
   "require-dev": {
     "language/ar": "*",
-    "language/ar_SA": "*",
+    "language/ar_sa": "*",
     "language/hy": "*",
     "language/az": "*",
     "language/eu": "*",
     "language/be": "*",
-    "language/bn_BD": "*",
+    "language/bn_bd": "*",
     "language/bs": "*",
-    "language/bg_BG": "*",
+    "language/bg_bg": "*",
     "language/ca": "*",
-    "language/zh_CN": "*",
-    "language/zh_TW": "*",
+    "language/zh_cn": "*",
+    "language/zh_tw": "*",
     "language/hr": "*",
     "language/cs": "*",
     "language/da": "*",
     "language/dv": "*",
     "language/nl": "*",
-    "language/en_CA": "*",
-    "language/en_GB": "*",
+    "language/en_ca": "*",
+    "language/en_gb": "*",
     "language/eo": "*",
     "language/et": "*",
     "language/fo": "*",
     "language/fi": "*",
-    "language/fr_FR": "*",
+    "language/fr_fr": "*",
     "language/gd": "*",
     "language/gl": "*",
-    "language/ka_GE": "*",
+    "language/ka_ge": "*",
     "language/de": "*",
-    "language/de_AT": "*",
+    "language/de_at": "*",
     "language/el": "*",
-    "language/he_IL": "*",
-    "language/hi_IN": "*",
-    "language/hu_HU": "*",
-    "language/is_IS": "*",
+    "language/he_il": "*",
+    "language/hi_in": "*",
+    "language/hu_hu": "*",
+    "language/is_is": "*",
     "language/id": "*",
     "language/it": "*",
     "language/ja": "*",
     "language/kab": "*",
     "language/kk": "*",
-    "language/km_KH": "*",
-    "language/ko_KR": "*",
+    "language/km_kh": "*",
+    "language/ko_kr": "*",
     "language/ku": "*",
-    "language/ku_IQ": "*",
+    "language/ku_iq": "*",
     "language/lv": "*",
     "language/lt": "*",
     "language/lb": "*",
     "language/ml": "*",
-    "language/ml_IN": "*",
-    "language/mn_MN": "*",
-    "language/nb_NO": "*",
+    "language/ml_in": "*",
+    "language/mn_mn": "*",
+    "language/nb_no": "*",
     "language/fa": "*",
-    "language/fa_IR": "*",
+    "language/fa_ir": "*",
     "language/pl": "*",
-    "language/pt_BR": "*",
-    "language/pt_PT": "*",
+    "language/pt_br": "*",
+    "language/pt_pt": "*",
     "language/ro": "*",
     "language/ru": "*",
     "language/sr": "*",
-    "language/si_LK": "*",
+    "language/si_lk": "*",
     "language/sk": "*",
-    "language/sl_SI": "*",
+    "language/sl_si": "*",
     "language/es": "*",
-    "language/es_MX": "*",
-    "language/sv_SE": "*",
+    "language/es_mx": "*",
+    "language/sv_se": "*",
     "language/tg": "*",
     "language/ta": "*",
-    "language/ta_IN": "*",
+    "language/ta_in": "*",
     "language/tt": "*",
-    "language/th_TH": "*",
+    "language/th_th": "*",
     "language/tr": "*",
-    "language/tr_TR": "*",
+    "language/tr_tr": "*",
     "language/ug": "*",
     "language/uk": "*",
-    "language/uk_UA": "*",
+    "language/uk_ua": "*",
     "language/vi": "*",
-    "language/vi_VN": "*",
+    "language/vi_vn": "*",
     "language/cy": "*"
   },
   "repositories": [
@@ -109,7 +112,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ar_SA",
+        "name": "language/ar_sa",
         "description": "Arabic (Saudi Arabia)",
         "version": "1.0.0",
         "dist": {
@@ -169,7 +172,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/bn_BD",
+        "name": "language/bn_bd",
         "description": "Bengali (Bangladesh)",
         "version": "1.0.0",
         "dist": {
@@ -193,7 +196,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/bg_BG",
+        "name": "language/bg_bg",
         "description": "Bulgarian (Bulgaria)",
         "version": "1.0.0",
         "dist": {
@@ -217,7 +220,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/zh_CN",
+        "name": "language/zh_cn",
         "description": "Chinese (China)",
         "version": "1.0.0",
         "dist": {
@@ -229,7 +232,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/zh_TW",
+        "name": "language/zh_tw",
         "description": "Chinese (Taiwan)",
         "version": "1.0.0",
         "dist": {
@@ -301,7 +304,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/en_CA",
+        "name": "language/en_ca",
         "description": "English (Canada)",
         "version": "1.0.0",
         "dist": {
@@ -313,7 +316,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/en_GB",
+        "name": "language/en_gb",
         "description": "English (United Kingdom)",
         "version": "1.0.0",
         "dist": {
@@ -373,7 +376,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/fr_FR",
+        "name": "language/fr_fr",
         "description": "French (France)",
         "version": "1.0.0",
         "dist": {
@@ -409,7 +412,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ka_GE",
+        "name": "language/ka_ge",
         "description": "Georgian (Georgia)",
         "version": "1.0.0",
         "dist": {
@@ -433,7 +436,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/de_AT",
+        "name": "language/de_at",
         "description": "German (Austria)",
         "version": "1.0.0",
         "dist": {
@@ -457,7 +460,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/he_IL",
+        "name": "language/he_il",
         "description": "Hebrew (Israel)",
         "version": "1.0.0",
         "dist": {
@@ -469,7 +472,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/hi_IN",
+        "name": "language/hi_in",
         "description": "Hindi (India)",
         "version": "1.0.0",
         "dist": {
@@ -481,7 +484,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/hu_HU",
+        "name": "language/hu_hu",
         "description": "Hungarian (Hungary)",
         "version": "1.0.0",
         "dist": {
@@ -493,7 +496,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/is_IS",
+        "name": "language/is_is",
         "description": "Icelandic (Iceland)",
         "version": "1.0.0",
         "dist": {
@@ -565,7 +568,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/km_KH",
+        "name": "language/km_kh",
         "description": "Khmer (Cambodia)",
         "version": "1.0.0",
         "dist": {
@@ -577,7 +580,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ko_KR",
+        "name": "language/ko_kr",
         "description": "Korean (Korea)",
         "version": "1.0.0",
         "dist": {
@@ -601,7 +604,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ku_IQ",
+        "name": "language/ku_iq",
         "description": "Kurdish (Iraq)",
         "version": "1.0.0",
         "dist": {
@@ -661,7 +664,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ml_IN",
+        "name": "language/ml_in",
         "description": "Malayalam (India)",
         "version": "1.0.0",
         "dist": {
@@ -673,7 +676,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/mn_MN",
+        "name": "language/mn_mn",
         "description": "Mongolian (Mongolia)",
         "version": "1.0.0",
         "dist": {
@@ -685,7 +688,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/nb_NO",
+        "name": "language/nb_no",
         "description": "Norwegian Bokmål (Norway)",
         "version": "1.0.0",
         "dist": {
@@ -709,7 +712,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/fa_IR",
+        "name": "language/fa_ir",
         "description": "Persian (Iran)",
         "version": "1.0.0",
         "dist": {
@@ -733,7 +736,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/pt_BR",
+        "name": "language/pt_br",
         "description": "Portuguese (Brazil)",
         "version": "1.0.0",
         "dist": {
@@ -745,7 +748,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/pt_PT",
+        "name": "language/pt_pt",
         "description": "Portuguese (Portugal)",
         "version": "1.0.0",
         "dist": {
@@ -781,18 +784,6 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ru@petr1708",
-        "description": "Russian Petrine orthography",
-        "version": "1.0.0",
-        "dist": {
-          "type": "zip",
-          "url": "http://www.tinymce.com/i18n/download.php?download=ru@petr1708"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "language/sr",
         "description": "Serbian",
         "version": "1.0.0",
@@ -805,7 +796,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/si_LK",
+        "name": "language/si_lk",
         "description": "Sinhala (Sri Lanka)",
         "version": "1.0.0",
         "dist": {
@@ -829,7 +820,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/sl_SI",
+        "name": "language/sl_si",
         "description": "Slovenian (Slovenia)",
         "version": "1.0.0",
         "dist": {
@@ -853,7 +844,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/es_MX",
+        "name": "language/es_mx",
         "description": "Spanish (Mexico)",
         "version": "1.0.0",
         "dist": {
@@ -865,7 +856,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/sv_SE",
+        "name": "language/sv_se",
         "description": "Swedish (Sweden)",
         "version": "1.0.0",
         "dist": {
@@ -901,7 +892,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/ta_IN",
+        "name": "language/ta_in",
         "description": "Tamil (India)",
         "version": "1.0.0",
         "dist": {
@@ -925,7 +916,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/th_TH",
+        "name": "language/th_th",
         "description": "Thai (Thailand)",
         "version": "1.0.0",
         "dist": {
@@ -949,7 +940,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/tr_TR",
+        "name": "language/tr_tr",
         "description": "Turkish (Turkey)",
         "version": "1.0.0",
         "dist": {
@@ -985,7 +976,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/uk_UA",
+        "name": "language/uk_ua",
         "description": "Ukrainian (Ukraine)",
         "version": "1.0.0",
         "dist": {
@@ -1009,7 +1000,7 @@
     {
       "type": "package",
       "package": {
-        "name": "language/vi_VN",
+        "name": "language/vi_vn",
         "description": "Vietnamese (Viet Nam)",
         "version": "1.0.0",
         "dist": {
