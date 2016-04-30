@@ -2,7 +2,7 @@
   "name": "ivan-chkv/tinymce-i18n",
   "description": "Languages for TinyMCE 4",
   "keywords": ["tinymce", "i18n", "languages"],
-  "homepage": "http://www.tinymce.com/i18n/",
+  "homepage": "https://www.tinymce.com/download/language-packages/",
   "type": "library",
   "license": "MIT",
   "authors": [
