@@ -1,0 +1,14 @@
+{
+  "name": "tinymce-i18n",
+  "description": "Languages for TinyMCE 4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-chkv/tinymce-i18n.git"
+  },
+  "author": "TinyMCE Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivan-chkv/tinymce-i18n/issues"
+  },
+  "homepage": "https://github.com/ivan-chkv/tinymce-i18n#readme"
+}
